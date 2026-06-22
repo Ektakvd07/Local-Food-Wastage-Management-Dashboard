@@ -5,6 +5,7 @@ A data-driven food redistribution platform designed to reduce food wastage by co
 https://local-food-wastage-management-dashboard.streamlit.app
 
 # 📌 Problem Statement
+
 Large quantities of edible food are wasted daily due to overproduction, inventory issues, and event leftovers, while many individuals and communities continue to face food insecurity.
 
 # Key challenges include:
