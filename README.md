@@ -1,20 +1,19 @@
 # Local-Food-Wastage-Management-Dashboard
 A data-driven food redistribution platform designed to reduce food wastage by connecting food providers with receiver organizations. The project leverages SQL, Python, Streamlit, and Data Analytics to monitor food donations, track claims, generate business insights, and support data-driven decision-making.
 
-🔗 Live Dashboard:
+# 🔗 Live Dashboard:
 https://local-food-wastage-management-dashboard.streamlit.app
 
-📌 Problem Statement
+# 📌 Problem Statement
 Large quantities of edible food are wasted daily due to overproduction, inventory issues, and event leftovers, while many individuals and communities continue to face food insecurity.
 
-Key challenges include:
-
+# Key challenges include:
 Lack of coordination between food donors and receivers
 Food expiring before reaching those in need
 Absence of real-time monitoring and analytics
 Limited visibility into food donation and claim patterns
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 Analyze food donation and claim data
 Identify major food providers and receiver organizations
 Monitor food availability and claim status
@@ -22,7 +21,7 @@ Reduce food wastage through efficient redistribution
 Build interactive dashboards for decision-making
 Generate business insights using SQL and Python
 
-🚀 Proposed Solution
+# 🚀 Proposed Solution
 The Local Food Wastage Management platform enables:
 
 Tracking of food listings and donations
@@ -31,7 +30,7 @@ Analysis of provider and receiver activities
 Real-time visualization through dashboards
 Data-driven recommendations to improve redistribution efficiency
 
-📊 Dataset Description
+# 📊 Dataset Description
 The project uses four datasets containing 4,000 total records.
 
 Dataset	Rows	Columns
@@ -39,7 +38,8 @@ Providers	1000	6
 Receivers	1000	5
 Food Listings	1000	9
 Claims	1000	8
-1. Providers Dataset
+
+# 1. Providers Dataset
 
 Contains information about food donors.
 
@@ -50,7 +50,8 @@ Type
 Address
 City
 Contact
-2. Receivers Dataset
+
+# 2. Receivers Dataset
 
 Contains information about food receivers.
 
@@ -60,7 +61,8 @@ Name
 Type
 City
 Contact
-3. Food Listings Dataset
+
+# 3. Food Listings Dataset
 
 Contains information about available food donations.
 
@@ -74,7 +76,8 @@ Provider_Type
 Location
 Food_Type
 Meal_Type
-4. Claims Dataset
+
+# 4. Claims Dataset
 
 Contains food request and claim records.
 
@@ -87,7 +90,8 @@ Timestamp
 Year
 Month
 Day
-🧹 Data Cleaning
+
+# 🧹 Data Cleaning
 Missing Values
 
 All datasets were checked for null values.
@@ -157,7 +161,8 @@ Timestamp	DateTime
 Year	Integer
 Month	Integer
 Day	Integer
-📈 Exploratory Data Analysis (EDA)
+
+# 📈 Exploratory Data Analysis (EDA)
 Dataset Overview
 Dataset	Records	Columns
 Providers	1000	6
@@ -214,7 +219,7 @@ Insight
 
 Seasonality cannot be determined from a single month of data. Daily fluctuations within March were analyzed instead.
 
-🗄️ SQL Business Insights
+# 🗄️ SQL Business Insights
 
 The project includes SQL queries that generate actionable business insights.
 
@@ -263,7 +268,7 @@ Analyzes completed, pending, and cancelled claims.
 
 Measures the effectiveness of food request fulfillment.
 
-📊 Dashboard Features
+# 📊 Dashboard Features
 KPI Cards
 Total Providers
 Total Receivers
@@ -282,6 +287,7 @@ Bar Chart	Top Provider Cities
 Scatter Plot	Monthly Claims Trend
 Scatter Plot	Monthly Listings Trend
 Bar Chart	Most Claimed Food Items
+
 🛠️ Technology Stack
 Programming & Analytics
 Python
@@ -297,7 +303,7 @@ Streamlit
 Database
 SQL Database (MySQL/SQLite)
 
-Clone the repository:
+# Clone the repository:
 git clone https://github.com/your-username/local-food-wastage-management.git
 
 Navigate to the project directory:
@@ -309,7 +315,7 @@ pip install -r requirements.txt
 Run the Streamlit dashboard:
 streamlit run app.py
 
-📌 Business Recommendations
+# 📌 Business Recommendations
 Increase Claim Completion Rate
 Automate claim assignment
 Send expiry notifications
@@ -327,7 +333,7 @@ Real-time dashboards
 Predictive demand forecasting
 Provider and receiver performance metrics
 
-✅ Conclusion
+# ✅ Conclusion
 The Local Food Wastage Management project demonstrates how data analytics can help reduce food waste and improve food redistribution. Through SQL analysis, Python-based EDA, and Streamlit visualizations, stakeholders can monitor donations, track claims, identify inefficiencies, and make informed decisions.
 
 The analysis highlights:
@@ -339,7 +345,7 @@ Opportunities to improve claim completion rates and operational efficiency
 
 By leveraging analytics and visualization, the platform contributes toward a more sustainable and efficient food donation ecosystem.
 
-📷 Dashboard
+# 📷 Dashboard
 
 Live Application:
 
